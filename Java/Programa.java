@@ -1,4 +1,4 @@
-public class Holamundo {
+public class Programa {
     public static void main(String[] args) {
 
         int n_op;
@@ -14,6 +14,7 @@ public class Holamundo {
         n_op = ConsoleInput.getInt();
 
         if(n_op == 1){
+          
 
         }
         if(n_op == 2){
