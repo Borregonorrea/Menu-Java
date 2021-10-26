@@ -19,38 +19,24 @@ public class Programa {
          System.out.println("Usted a seleccionado la opción 1");
          System.out.print("Ingrese su dia de nacimiento: ");
          Integer d = in.nextInt();
-            if(d > 31){
+            if(d > 31 | d < 1){
               System.out.println("El dato ingresado no es valido");
               System.exit(0);
-            }
-            if(d < 1){
-              System.out.println("El dato ingresado no es valido");
-              System.exit(0);
-            }
+            }              
          System.out.print("Ingrese su mes de nacimiento: ");
          Integer m = in.nextInt();
-          if(m > 12){
-            System.out.println("El dato ingresado no es valido");
-            System.exit(0);
-          }
-          if(m < 1){
+          if(m > 12 | m < 1){
             System.out.println("El dato ingresado no es valido");
             System.exit(0);
           }
          System.out.print("Ingrese su año de nacimiento: ");
          Integer a = in.nextInt();
-         if(a > 2021){
-           System.out.println("El dato ingresado no es valido");
-           System.exit(0);
-         }
-         if(a < 1904){
+         if(a > 2021 | a < 1904){
            System.out.println("El dato ingresado no es valido");
            System.exit(0);
          }
          System.out.println("La fecha que usted ingreso fue: " +  d  +  " / "  +  m  +  " / "  +  a);
          
-        
-
 
 
         }
