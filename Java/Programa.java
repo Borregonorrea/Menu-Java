@@ -21,25 +21,76 @@ public class Programa {
          Integer d = in.nextInt();
             if(d > 31 | d < 1){
               System.out.println("El dato ingresado no es valido");
-              System.exit(0);
+              break;
             }              
          System.out.print("Ingrese su mes de nacimiento: ");
          Integer m = in.nextInt();
           if(m > 12 | m < 1){
             System.out.println("El dato ingresado no es valido");
-            System.exit(0);
+            break;
           }
          System.out.print("Ingrese su año de nacimiento: ");
          Integer a = in.nextInt();
          if(a > 2021 | a < 1904){
            System.out.println("El dato ingresado no es valido");
-           System.exit(0);
+           break;
          }
          System.out.println("La fecha que usted ingreso fue: " +  d  +  " / "  +  m  +  " / "  +  a);
-         
+          if(d >= 21 & d <= 30 & m == 1){
+            System.out.println("Su signo del zodiaco es acuario");
+          }
+          if(d >= 1 & d<= 19 & m == 2){
+            System.out.println("Su signo del zodiaco es acuario");
+          }
+          if(d >= 20 & d<= 29 & m == 2){
+            System.out.println("Su signo del zodiaco es piscis");
+          }
+          if(d >= 1 & d <= 20 & m == 3){
+            System.out.println("Su signo del zodiaco es piscis");
+          }
+          if(d >= 21 & d <= 31 & m == 3){
+            System.out.println("Su signo del zodiaco es aries");}
+          if(d >= 1 & d <= 20 & m == 4){
+            System.out.println("Su signo del zodiaco es aries");}
+          if(d >= 21 & d <= 30 & m == 4){
+            System.out.println("Su signo del zodiaco es tauro");}
+          if(d >= 1 & d <= 21 & m == 5){
+            System.out.println("Su signo del zodiaco es tauro");}
+          if(d >= 22 & d <= 31 & m == 5){
+            System.out.print("Su signo del zodiaco es geminis");}
+          if(d >= 1 & d <= 21 & m == 6){
+            System.out.println("Su signo del zodiaco es geminis");}
+          if(d >= 22 & d <= 30 & m == 6){
+            System.out.println("Suu signo del zodiaco es cancer");}
+          if(d >= 1 & d <= 22 & m == 7){
+            System.out.println("Su signo del zodiaco es cancer");}
+          if(d >= 23 & d <= 31 & m == 7){
+            System.out.println("Su signo del zodiaco es leo");}
+          if(d >= 1 & d <= 23 & m == 8){
+            System.out.println("Su signo del zodiaco es leo");}
+          if(d >= 24 & d <= 31 & m == 8){
+            System.out.println("Su signo del zodiaco es virgo");}
+          if(d >= 1 & d <= 23 & m == 9){
+            System.out.println("Su signo del zodiaco es virgo");}
+          if(d >= 24 & d <= 30 & m == 9){
+            System.out.println("Su signo del zodiaco es libra");}
+          if(d >= 1 & d <= 23 & m == 10){
+            System.out.println("Su signo del zodiaco es libra");}
+          if(d >= 24 & d <= 31 & m == 10){
+            System.out.println("Su signo del zodiaco es escorpio");}
+          if(d >= 1 & d <= 22 & m == 11){
+            System.out.println("Su signo del zodiaco es escorpio");}
+          if(d >= 23 & d <= 30 & m == 11){
+            System.out.println("Su signo del zodiaco es sagitario");}
+          if(d >= 1 & d <= 21 & m == 12){
+            System.out.println("Su signo del zodiaco es sagitario");}
+          if(d >= 22 & d <= 31 & m == 12){
+            System.out.println("Su signo del zodiaco es Capricornio");}
+          if(d >= 1 & d <= 20 & m == 1){
+            System.out.println("Su signo del zodiaco es Capricornio");
+          }
 
-
-        }
+          }
         if(n_op == 2){
 
         }
