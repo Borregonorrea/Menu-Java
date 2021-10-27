@@ -16,8 +16,10 @@ public class Programa {
 
         Scanner in = new Scanner(System.in);
         n_op = ConsoleInput.getInt();
+        //Signo del zodiaco 
 
         if(n_op == 1){
+          try{
          System.out.println("Usted a seleccionado la opción 1");
          System.out.print("Ingrese su dia de nacimiento: ");
          Integer d = in.nextInt();
@@ -63,7 +65,7 @@ public class Programa {
           if(d >= 1 & d <= 21 & m == 6){
             System.out.println("Su signo del zodiaco es geminis");}
           if(d >= 22 & d <= 30 & m == 6){
-            System.out.println("Suu signo del zodiaco es cancer");}
+            System.out.println("Su signo del zodiaco es cancer");}
           if(d >= 1 & d <= 22 & m == 7){
             System.out.println("Su signo del zodiaco es cancer");}
           if(d >= 23 & d <= 31 & m == 7){
@@ -91,8 +93,12 @@ public class Programa {
           if(d >= 1 & d <= 20 & m == 1){
             System.out.println("Su signo del zodiaco es Capricornio");
           }
-
+          }catch(Exception o){
+            System.out.println("Ha ocurrido un error");
+          } 
           }
+        //Edad en dias
+
         if(n_op == 2){
           try {
 
@@ -128,8 +134,9 @@ public class Programa {
         } catch (Exception ex) {
             System.out.println("ha habido un error" + ex.toString());
         }
-
         }
+        //Edad en años de perro
+
         if(n_op == 3){
         System.out.println("Usted ha seleccionado la opción 3");
         System.out.print("Digite su edad en años: ");
@@ -137,18 +144,23 @@ public class Programa {
         int edadp = (edad/7);
         System.out.println("Su edad en años de perros es: " + edadp);
         }
+        //Numerologia
+        
         if(n_op == 4){
 
         }
+        //Despedida
+
         if(n_op == 5){
           System.out.println("Hasta Pronto");
         }
-          
-          if(n_op == 6){
-          System.out.println("Creditos");
-          System.out.println("Katherine Orrego/koe05");
-          System.out.println("Juan Manuel Vega/juanmvegam");
-          System.out.println("Samuel Orrego/Borregonorrea");
+        //Creditos
+
+        if(n_op == 6){
+        System.out.println("Creditos");
+        System.out.println("Katherine Orrego/koe05");
+        System.out.println("Juan Manuel Vega/juanmvegam");
+        System.out.println("Samuel Orrego/Borregonorrea");
         }    
 
         
