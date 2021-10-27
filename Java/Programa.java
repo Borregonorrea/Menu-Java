@@ -95,7 +95,11 @@ public class Programa {
 
         }
         if(n_op == 3){
-
+        System.out.println("Usted ha seleccionado la opción 3");
+        System.out.print("Digite su edad en años: ");
+        Integer edad = in.nextInt();
+        int edadp = (edad/7);
+        System.out.println("Su edad en años de perros es: " + edadp);
         }
         if(n_op == 4){
 
@@ -114,7 +118,7 @@ public class Programa {
         
         if(n_op >= 7){
           System.out.println("El numero ingresado no coincide con una opcion del menu");
-
+          
         }
 
 
