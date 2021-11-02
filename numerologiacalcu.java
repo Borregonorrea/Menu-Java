@@ -12,3 +12,24 @@ public class numerologiacalcu {
         }
     }
 }
+
+System.out.printl(".--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.");
+System.out.printl("/ .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \\'");
+System.out.printl("/ /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\\");
+System.out.printl("/ /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\\");
+System.out.printl("\ \/\ \                                                    /\ \/ /\ ");
+System.out.printl("\/ /\ \        ▀▄▀▄▀▄Calcular signo del zodiaco▄▀▄▀▄▀                                         / /\/ /\ ");
+System.out.printl("/ /\/ /        ▀▄▀▄▀▄Calcular cantidad de dias vividos▄▀▄▀▄▀          \ \/ /\\");
+System.out.printl("/ /\ \/        ▀▄▀▄▀▄Calcular la edad en años de perro▄▀▄▀▄▀                                            \ \/\ \\");
+System.out.printl("\ \/\ \        ▀▄▀▄▀▄Calcular tu numero segun numerologia▄▀▄▀▄▀               /\ \/ /\ ");
+System.out.printl(" \/ /\ \              »»ᅳSᅳaᅳlᅳiᅳrᅳ►                                 / /\/ /\ ");
+System.out.printl("/ /\/ /              »»ᅳCᅳrᅳeᅳdᅳiᅳtᅳoᅳsᅳ►                                    \ \/ /\ ");
+System.out.printl("/ /\ \/                                                    \ \/\ \ ");
+System.out.printl("\ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /");
+System.out.printl("\/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /");
+System.out.printl("/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\ ");
+System.out.printl("/ /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \ ");
+System.out.printl("\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' / ");
+System.out.printl(" `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' ");
+
+ 

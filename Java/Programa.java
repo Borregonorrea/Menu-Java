@@ -14,6 +14,25 @@ public class Programa {
         System.out.println("5. Salir");
         System.out.println("6. Creditos");
 
+        System.out.printl(".--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.");
+System.out.printl("/ .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \\'"
+System.out.printl("/ /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\\");
+System.out.printl("/ /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\\");
+System.out.printl("\ \/\ \                                                    /\ \/ /\ "
+System.out.printl("\/ /\ \        ▀▄▀▄▀▄Calcular signo del zodiaco▄▀▄▀▄▀                
+System.out.printl("/ /\/ /        ▀▄▀▄▀▄Calcular cantidad de dias vividos▄▀▄▀▄▀         
+System.out.printl("/ /\ \/        ▀▄▀▄▀▄Calcular la edad en años de perro▄▀▄▀▄▀         
+System.out.printl("\ \/\ \        ▀▄▀▄▀▄Calcular tu numero segun numerologia▄▀▄▀▄▀      
+System.out.printl(" \/ /\ \              »»ᅳSᅳaᅳlᅳiᅳrᅳ►                                 
+System.out.printl("/ /\/ /              »»ᅳCᅳrᅳeᅳdᅳiᅳtᅳoᅳsᅳ►                      
+System.out.printl("/ /\ \/                                                    \ \/\ \ ")
+System.out.printl("\ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /");
+System.out.printl("\/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /");
+System.out.printl("/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\ ");
+System.out.printl("/ /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \ ")
+System.out.printl("\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' / ")
+System.out.printl(" `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--' ");
+
         Scanner in = new Scanner(System.in);
         n_op = ConsoleInput.getInt();
         //Signo del zodiaco 
