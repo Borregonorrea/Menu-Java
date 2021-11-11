@@ -148,6 +148,15 @@ public class Programa {
         //Numerologia
         
         if(n_op == 4){
+        
+        System.out.print("Digite su dia de nacimiento: ");
+        Integer dn = in.nextInt();
+        if(dn <= 0 | dn >= 32){
+          System.out.println("La fecha está mal ingresada, porfavor revise el dato ingresado");
+        }
+        if(dn >= 1 & dn <= 9){
+          System.out.println("Su numerologia es " + dn);
+        }
 
         }
         //Despedida
